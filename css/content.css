@@ -1,0 +1,93 @@
+.contact .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contact .row .content .title{
+  text-transform: uppercase;
+  color: var(--pink);
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+   display: flex;
+   align-items: center;
+   font-size: 1.8rem;
+   color: #eee;
+   padding: 1rem 1rem;
+   font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+  padding-right: 1.5rem;
+  color: var(--pink);
+}
+
+.contact .row .form{
+  flex: 1 1 25rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact .row  .form .box{
+  padding: 1.3rem;
+  margin: .4rem 0;
+  background: #3333;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.contact .row  .form .box::placeholder{
+  text-transform: capitalize;
+}
+
+.contact .row  .form .message{
+  height: 15rem;
+  resize: none;
+}
+
+
+
+
+/* 
+obada
+/* .contact .row .content {
+  /* position: relative;
+  background-color: aqua;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: space-between; */
+/* flex: 1 1 32em;
+  padding: 2em;
+  padding-bottom: 0; */
+/* } */
+
+/* .contact .row .content form {
+  flex: 1 1 50em;
+  padding: 2em;
+  margin: 2em;
+  margin-bottom: 4em;
+}
+
+.contact .row .content form .box{
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #3333;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
+} */

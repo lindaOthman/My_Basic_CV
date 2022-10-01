@@ -1,0 +1,66 @@
+html{
+  scroll-behavior: smooth;
+}
+/* media queries */
+@media(max-width:600px){
+  html,.name,.post{
+    font-size: 55%;
+  }
+  
+  .home{
+    padding: 1em 5em;
+  }
+ img{
+  width: 30%;
+ }
+}
+
+@media(max-width:999px){
+  header{
+    left: -120%;
+  }
+
+  #menu{
+    display: block;
+  }
+
+  header.toggle{
+    left: 0%;
+  }
+
+  body{
+    padding: 0;
+   } 
+}
+
+
+
+@media(max-width:410px){
+  header{
+    width: 100vw;
+  }
+  .name{
+    font-size: 5rem;
+  }
+
+  .heading{
+    margin: 0 3em;
+  }
+
+  .about .row .counter .box{
+    width: 100%;
+  }
+
+  .education .box-container .box{
+    width: 100%;
+  }
+
+  .portfolio .box-container .box{
+    width: 100%;
+  }
+
+  .contact .row  .form {
+    margin: 3rem 0;
+  }
+}
+

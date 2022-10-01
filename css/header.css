@@ -1,0 +1,82 @@
+html{
+  scroll-behavior: smooth;
+}
+header{
+  position: fixed;
+  opacity: 10 black;
+  top: 0; left: 0;
+  z-index: 10000;
+  height: 100%;
+  width: 35em;
+  background: var(--ground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+header .user img {
+  background-color: var(--parpel);
+  /* height: 15rem; */
+  width: 11.7em;
+  border-radius: 8rem;
+  object-fit: cover;
+  margin-top: 5em;
+  margin-bottom: 1rem;
+  border: 0.4rem solid var(--pink);
+  /* box-shadow:.5em rgb(203, 175, 207) ; */
+}
+header .user .name {
+  font-size: 2.7rem;
+  color:var(--wight);
+}
+
+header .user .post {
+  font-size: 1.6rem;
+  color: var(--wight);
+}
+
+header .navbar{
+  width: 100%;
+}
+
+header .navbar ul{
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+header .navbar li a{
+  display: block;
+  padding: 3% 5%;
+  margin: 1em;
+  background-color: var(--parpel);
+  color: var(--wight);
+  font-size: 1.4rem;
+  border-radius: 5rem;
+}
+
+
+header .navbar li a:hover{
+  background-color: var(--pink);
+  transition: .2s;
+  cursor: pointer;
+  
+}
+
+#menu{
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  background-color: var(--ground);
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 0.3em 0.5em;
+  z-index: 10000;
+  display: none;
+}
+
+
+
+

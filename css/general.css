@@ -1,0 +1,85 @@
+/* @import  ('https://font.googleapis.com/family=Nunito:wght@200;300;400;600display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
+
+@font-face {
+  font-family: 'nanum-gthic';
+  src: url(../font/Nanum_Gothic/NanumGothic-Bold.ttf);
+}
+:root {
+  --parpel: #3a2b3c;
+  --ground:#2e1e37;/*#B37D8B*/
+  --pink:#B37D8B;
+  --wight:rgb(237, 229, 229);
+  --colur-selection: rgb(209, 207, 207);
+}
+
+* {
+  /* font-family: 'Nunito', sans-serif; */
+  
+  font-family: 'nanum-gthic';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+*::selection {
+  background-color: var(--pink);
+  color:var(--colur-selection);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background:var(--ground);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--pink);
+}
+
+body{
+  background:#22112c;
+  overflow-x:hidden ;
+  padding-left: 35rem;
+}
+
+section{
+  min-height: 100vh;
+  padding: 1em;
+}
+
+.btn{
+  font-size: 1.5rem;
+  padding: .6em 1em;
+  border-radius: 1.3em;
+  background-color: var(--pink);
+  color: var(--ground);
+}
+
+i{
+  padding-left: 6px;
+}
+
+span{
+  color: var(--pink);
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: var(--pink);
+  color: white;
+  opacity: .7;
+}
